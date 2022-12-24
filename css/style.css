@@ -21,9 +21,9 @@ button:hover{
     background-color: blue;
 }
 
+/* FUENTE DE BODY */
 body{    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
 }
 
 .container{
@@ -75,12 +75,12 @@ header a{
     color: white;
     
     /* oscureser imagen DE FONDO */
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))   
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))   
     ,url(/assets/images/banner.png);
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
 }
 
 #banner h1{
@@ -147,4 +147,15 @@ footer{
     text-size-adjust: none;
     margin: 0;
     height: 50px;
+}
+
+/* MENU NAV BOOSTRAP */
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
 }
