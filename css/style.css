@@ -1,161 +1,30 @@
-*{
-    box-sizing: border-box;
-}
-h1{font-size: 3.5em;}
-H2{font-size: 3em;}
-h3{font-size: 2em;}
-p{font-size: 1em;}
-ul{list-style: none;}
-button{
-    font-size: 0.8em;
-    font-weight: initial;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 2px solid black;
-    box-shadow: 2px 2px 10px rgba(0,0,0,1);
-    color: white;
-    background-color: rgb(36, 36, 201);
-}
 
-button:hover{
-    background-color: blue;
-}
 
-/* FUENTE DE BODY */
-body{    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-
-header{
-    margin: 0;
-    background-color: rgb(216, 216, 219);
-}
-
-header .logo{
-    width: 30%;
-    height: 70px;
-    float: left;
-    margin: 0;
-    font-weight: bold;
-    color: rgb(36, 36, 201);
-    font-size: 1.9em;
-    text-align: center;
-}
-
-header .container{
-    padding: 25px 30px;
-    align-items: center;
-}
-
-header nav{
-    width: 70%;
-    height: 70px;
-    float: left;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-#banner{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 60vh;
-    color: white;
-    
-    /* oscureser imagen DE FONDO */
-    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))   
-    ,url(/assets/images/banner.png);
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
-}
-
-#banner h1{
-    color: white;
-}
-
-#experiencia .container{
-    text-align: center;
-    padding: 200px 12px;
-
-}
-
-#codigos{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-#codigos .container{
-    padding: 100px 0px;
-}
-
-#codigos .p{
-    display: none;
-}
-
-#codigos .lenguajes{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))   
-    ,url(/assets/images/lenguajes.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 60px;
-    margin: 12px;
-    border-radius: 10px;
-}
-
-#servicios .container{
-    padding: 200px 12px;
-    text-align: center;
-}
-
-#servicios .li{
-    margin: 16px 0px;
-    font-weight: bold;
-}
-
-#contactanos{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(0,0,0,1);
-    color: white;
-    height: 80vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
-    ,url(/assets/images/contacto.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer{
-    text-align: center;
-    text-size-adjust: none;
-    margin: 0;
-    height: 50px;
-}
+/* PRODIADES DE INDEX.HTML */
 
 /* MENU NAV BOOSTRAP */
-#menu a{
-    font-size: 18px;
-    font-weight: bold;
+#header p{
+    text-align: center;
+    color: white;
 }
 
-#menu button{
-    font-size: 18px;
-    font-weight: bold;
+body {
+    font-family: sans-serif;
 }
+
+#menu a{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:768px) {
+    #experiencia{
+        width:90% !important;
+    }
+}
+
+
+/* PRODIADES DE CARACTERISTICAS.HTML */
