@@ -21,8 +21,12 @@ body {
 /* MEDIA QUERY */
 
 @media (max-width:768px) {
-    #experiencia{
+    #experiencia {
         width:90% !important;
+    }
+    .servicio-fila{
+    width: 100% !important;
+    text-align: center;    
     }
 }
 
